@@ -11,17 +11,19 @@ namespace HornetWings
         static void Main(string[] args)
         {
             long wingFlaps = long.Parse(Console.ReadLine());
-            double distancePer1000Flaps = double.Parse(Console.ReadLine()); //in meters
-            long endurance = long.Parse(Console.ReadLine()); //in flaps
+            double distancePer1000Flaps = double.Parse(Console.ReadLine());
+            long endurance = long.Parse(Console.ReadLine());
 
-            var distance = (wingFlaps / 1000) * distancePer1000Flaps;          
-            var seconds = (wingFlaps / endurance) * 5;
+            //restTime = 5 seconds. Makes 100 flips per second
 
-            seconds += wingFlaps / 100;
+            double distance = wingFlaps * (distancePer1000Flaps / 1000);
+            double time = wingFlaps / 100;
+            double restTime = (wingFlaps / endurance) * 5;
+
+            double totalTime = time + restTime;
 
             Console.WriteLine($"{distance:f2} m.");
-            Console.WriteLine($"{seconds} s.");           
-
+            Console.WriteLine($"{totalTime} s.");     
         }
     }
 }

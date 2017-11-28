@@ -22,7 +22,7 @@ namespace Resurrection
                 decimal yearsToReincarnate = (bodyLength * bodyLength) * (bodyWidth + (2 * wingLength));
 
                 Console.WriteLine(yearsToReincarnate);
-            }
+            }            
         }
     }
 }
