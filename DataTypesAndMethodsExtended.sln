@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetDessert", "SweetDesser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainers", "Trainers\Trainers.csproj", "{5738F933-DC48-4192-97E6-327B18CCA01A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raindrops", "..\..\..\Desktop\Programming Fundamentals Extended November 2017\ProgrFundamentalsExam10122017\FirstTask\Raindrops.csproj", "{A05F1B72-D076-41CF-9D00-F5287FA3B026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{5738F933-DC48-4192-97E6-327B18CCA01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5738F933-DC48-4192-97E6-327B18CCA01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5738F933-DC48-4192-97E6-327B18CCA01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05F1B72-D076-41CF-9D00-F5287FA3B026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05F1B72-D076-41CF-9D00-F5287FA3B026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05F1B72-D076-41CF-9D00-F5287FA3B026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05F1B72-D076-41CF-9D00-F5287FA3B026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
